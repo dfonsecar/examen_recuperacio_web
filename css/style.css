@@ -79,7 +79,6 @@ letter-spacing: 1.305em;
 
 color: #0029FF;
 flex-grow: row wrap;
-justify-content: space-between;
 border: 1px solid #FFFFFF;
 }
 
@@ -397,25 +396,25 @@ flex-grow: 0;
 
 /*MEDIA QUERYS*/
 
-@media screen and (max-width: 1200px;){
+@media screen and (max-width: 1200px){
     .text h5 {
         width: 45px;
     }
 }
 
-@media screen and (max-width: 991px;){
+@media screen and (max-width: 991px){
     .text h5 {
         width: 42px;
     }
 }
 
-@media screen and (max-width: 767px;){
+@media screen and (max-width: 767px){
     .text h5 {
         width: 38px;
     }
 }
 
-@media screen and (max-width: 575px;){
+@media screen and (max-width: 575px){
     .text h5 {
         width: 35px;
     }
