@@ -1,0 +1,423 @@
+/* DF Import la font de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+/* DF Header */
+
+.container {
+max-width: 1440px;
+width: 100%;
+margin: auto;
+}
+
+.flex {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.header {
+height: 25%;
+}
+
+/* DF Media Querys */
+
+@media screen and (max-width: 1000px) {
+  .flex {
+    flex-direction: column;
+  }  
+}
+
+.body {
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    width: 57px;
+    height: 23px;
+    left: 70px;
+    top: 36px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #3A59FF;
+}
+
+.text-a {
+    width: 57px;
+height: 23px;
+left: 217px;
+top: 36px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.text-l{
+    width: 171px;
+height: 34px;
+left: 634px;
+top: 30px;
+
+font-family: 'Maiandra GD';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+letter-spacing: 1.305em;
+
+color: #0029FF;
+flex-grow: row wrap;
+justify-content: space-between;
+border: 1px solid #FFFFFF;
+}
+
+/* Center */
+
+.background {
+    height: 90vh;
+    margin: auto;
+    padding: 20px;
+}
+
+.text-h1 {
+    width: 600px;
+height: 75px;
+left: 420px;
+top: 309px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+letter-spacing: 0.625em;
+
+color: #000000;
+justify-content: center;
+
+}
+
+/* Botons */
+
+.btn {
+    width: 129px;
+    height: 18px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+    /* identical to box height, or 82% */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-purple{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 57px 24px 40px;
+gap: 10px;
+
+position: absolute;
+left: 34.44%;
+right: 50.9%;
+top: 60.64%;
+bottom: 32.91%;
+
+background: #D3B1EA;
+border: 1px solid #000000;
+border-radius: 40px;
+}
+
+.btn1 {
+    width: 137px;
+    height: 18px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+    /* identical to box height, or 82% */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-black{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 57px 24px 40px;
+gap: 10px;
+
+position: absolute;
+left: 50.97%;
+right: 34.38%;
+top: 60.64%;
+bottom: 32.91%;
+
+background: #000000;
+border-radius: 40px;
+}
+
+/* Ultima Part */
+
+.block1 {
+/* Frame 14520 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 300px;
+height: 83px;
+left: 236px;
+top: 893px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid #FFFFFF;
+box-shadow: 8px 8px 0px #333333;
+border-radius: 16px;
+}
+
+.block1-h5{
+    /* 351K */
+
+
+width: 54px;
+height: 26px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.block1-p{
+    width: 149px;
+height: 51px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.block2 {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 300px;
+    height: 83px;
+    left: 567px;
+    top: 893px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-shadow: 8px 8px 0px #333333;
+    border-radius: 16px;
+    
+}
+
+.block2-h5 {
+    width: 44px;
+    height: 26px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    
+    color: #333333;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+
+.block2-p {
+    width: 149px;
+height: 51px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.block3 {
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 300px;
+height: 83px;
+left: 905px;
+top: 893px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid #FFFFFF;
+box-shadow: 8px 8px 0px #333333;
+border-radius: 16px;
+}
+
+.block3-h5 {
+    width: 52px;
+height: 26px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.block3-p {
+    width: 149px;
+height: 51px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/*MEDIA QUERYS*/
+
+@media screen and (max-width: 1200px;){
+    .text h5 {
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 991px;){
+    .text h5 {
+        width: 42px;
+    }
+}
+
+@media screen and (max-width: 767px;){
+    .text h5 {
+        width: 38px;
+    }
+}
+
+@media screen and (max-width: 575px;){
+    .text h5 {
+        width: 35px;
+    }
+}
+    
